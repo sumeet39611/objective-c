@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ProtocolExample.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+     
+        
+        ProtocolExample *protocol=[[ProtocolExample alloc] init];
+        
+        [protocol add:25 :60];
+        [protocol subtract:50 :10];
     }
     return 0;
 }

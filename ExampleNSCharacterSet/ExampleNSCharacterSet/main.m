@@ -10,8 +10,16 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+    
+        NSString *string= @"... My Name is Sumeet";
+        
+        NSLog(@"initial string is %@",string);
+        
+        NSCharacterSet *character =[NSCharacterSet punctuationCharacterSet];
+        string =[string stringByTrimmingCharactersInSet:character];
+        
+        NSLog(@"final string is %@", string);
+        
     }
     return 0;
 }

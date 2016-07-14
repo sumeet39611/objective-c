@@ -10,4 +10,9 @@
 
 @implementation Rectangle
 
+-(void) print:(NSInteger)length :(NSInteger)breadth{
+    area= length * breadth;
+    NSLog(@"area of rectangle is %ld", area);
+}
+
 @end

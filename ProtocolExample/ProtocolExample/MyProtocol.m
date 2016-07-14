@@ -8,6 +8,6 @@
 
 #import "MyProtocol.h"
 
-@implementation MyProtocol
+//@implementation MyProtocol
 
-@end
+//@end

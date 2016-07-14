@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Rectangle : NSObject
+@interface Rectangle : NSObject{
+    
+    NSInteger area;
+}
+
+-(void) print :(NSInteger) length
+              : (NSInteger) breadth;
 
 @end

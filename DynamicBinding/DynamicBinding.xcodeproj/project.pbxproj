@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0A4FFECE1D3644F30088EEAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4FFECD1D3644F30088EEAB /* main.m */; };
+		0A4FFED61D3645260088EEAB /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4FFED51D3645260088EEAB /* Square.m */; };
+		0A4FFED91D3645400088EEAB /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4FFED81D3645400088EEAB /* Rectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		0A4FFECA1D3644F30088EEAB /* DynamicBinding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicBinding; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4FFECD1D3644F30088EEAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A4FFED41D3645260088EEAB /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		0A4FFED51D3645260088EEAB /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		0A4FFED71D3645400088EEAB /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		0A4FFED81D3645400088EEAB /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				0A4FFECD1D3644F30088EEAB /* main.m */,
+				0A4FFED41D3645260088EEAB /* Square.h */,
+				0A4FFED71D3645400088EEAB /* Rectangle.h */,
+				0A4FFED81D3645400088EEAB /* Rectangle.m */,
+				0A4FFED51D3645260088EEAB /* Square.m */,
 			);
 			path = DynamicBinding;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4FFED61D3645260088EEAB /* Square.m in Sources */,
 				0A4FFECE1D3644F30088EEAB /* main.m in Sources */,
+				0A4FFED91D3645400088EEAB /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0A4FFEB51D36247B0088EEAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4FFEB41D36247B0088EEAB /* main.m */; };
+		0A4FFEBD1D3624A70088EEAB /* ProtocolExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4FFEBC1D3624A70088EEAB /* ProtocolExample.m */; };
+		0A4FFEC01D3626B70088EEAB /* MyProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4FFEBF1D3626B70088EEAB /* MyProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		0A4FFEB11D36247B0088EEAB /* ProtocolExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProtocolExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4FFEB41D36247B0088EEAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A4FFEBB1D3624A70088EEAB /* ProtocolExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolExample.h; sourceTree = "<group>"; };
+		0A4FFEBC1D3624A70088EEAB /* ProtocolExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolExample.m; sourceTree = "<group>"; };
+		0A4FFEBE1D3626B70088EEAB /* MyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProtocol.h; sourceTree = "<group>"; };
+		0A4FFEBF1D3626B70088EEAB /* MyProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProtocol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,8 @@
 		0A4FFEA81D36247B0088EEAB = {
 			isa = PBXGroup;
 			children = (
+				0A4FFEBB1D3624A70088EEAB /* ProtocolExample.h */,
+				0A4FFEBC1D3624A70088EEAB /* ProtocolExample.m */,
 				0A4FFEB31D36247B0088EEAB /* ProtocolExample */,
 				0A4FFEB21D36247B0088EEAB /* Products */,
 			);
@@ -58,6 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				0A4FFEB41D36247B0088EEAB /* main.m */,
+				0A4FFEBE1D3626B70088EEAB /* MyProtocol.h */,
+				0A4FFEBF1D3626B70088EEAB /* MyProtocol.m */,
 			);
 			path = ProtocolExample;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4FFEBD1D3624A70088EEAB /* ProtocolExample.m in Sources */,
+				0A4FFEC01D3626B70088EEAB /* MyProtocol.m in Sources */,
 				0A4FFEB51D36247B0088EEAB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

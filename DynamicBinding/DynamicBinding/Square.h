@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Square : NSObject
+@interface Square : NSObject{
+    NSInteger area;
+}
+
+-(void) print:(NSInteger) side;
 
 @end

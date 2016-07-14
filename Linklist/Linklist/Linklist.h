@@ -9,5 +9,14 @@
 #import <Foundation/Foundation.h>
 
 @interface Linklist : NSObject
+{
+    int data;
+    Linklist *next;
+}
+
+-(void) add :(int) dat
+            : (Linklist *) link;
+-(void) print:(Linklist *) link;
+
 
 @end

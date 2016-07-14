@@ -10,8 +10,14 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        char ch;
+        int age;
+        float ff;
+        NSLog(@"size of integer is %ld:",sizeof(age));
+        NSLog(@"size of character is %ld:",sizeof(ch));
+        NSLog(@"size of float is %ld:",sizeof(ff));
+        
     }
     return 0;
 }

@@ -10,8 +10,13 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        NSArray *array=[[NSArray alloc] initWithObjects:@"ssss",@"ppp",@"aaaa", nil];
+          NSLog(@"result array:");
+        for (NSString *astring in [array reverseObjectEnumerator]) {
+          
+            NSLog(@"%@",astring);
+        }
     }
     return 0;
 }

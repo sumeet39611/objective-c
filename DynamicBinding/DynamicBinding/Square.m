@@ -9,5 +9,10 @@
 #import "Square.h"
 
 @implementation Square
+-(void) print:(NSInteger)side
+{
+    area = side * side;
+    NSLog(@"area of square is %ld", area);
+}
 
 @end

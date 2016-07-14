@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface ProtocolExample : NSObject
+#import "MyProtocol.h"
+@interface ProtocolExample : NSObject <MyProtocol>
+{
+    int result;
+}
 
 @end

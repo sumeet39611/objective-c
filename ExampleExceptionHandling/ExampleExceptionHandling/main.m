@@ -10,8 +10,18 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+       
+        NSMutableArray *arr=[[NSMutableArray alloc] init];
+        @try {
+            NSString *string = [arr objectAtIndex:10];
+        }
+        @catch (NSException *exception) {
+            NSLog(@"%@",exception.name);
+            NSLog(@"Reason: %@",exception.name);
+        }
+        @finally {
+            NSLog(@"@@finalyy always executes");
+        }
     }
     return 0;
 }

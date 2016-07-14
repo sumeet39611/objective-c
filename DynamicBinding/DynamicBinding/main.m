@@ -7,11 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Square.h"
+#import "Rectangle.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        Square *sq= [[Square alloc] init];
+        
+        [sq print:10];
+        
+        Rectangle *rec = [[Rectangle alloc] init];
+        
+        [rec print:5 :5];
+        
     }
     return 0;
 }
