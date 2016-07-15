@@ -12,6 +12,7 @@
         void vendingMachine(int amount,int i){
             
             int a[]={1000,500,100,50,20,10,5,2,1};
+            
             static int count;
             if(i>8)
             {

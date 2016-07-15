@@ -10,7 +10,8 @@
 #import "Insertionsort.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
+     
+     /*
         Insertionsort *insertion =[[Insertionsort alloc] init];
         
         int a[10],n;
@@ -32,6 +33,19 @@ int main(int argc, const char * argv[]) {
         for (int i=0; i< n; i++) {
             NSLog(@"%i",a[i]);
         }
+       
+      */
+        //--------------------------------------------------
+        
+        Insertionsort *insertion =[[Insertionsort alloc] init];
+        NSArray *array=@[@"sumeet",@"parth",@"akshay",@"mayur"];
+        
+        [insertion sortingString:array];
+        
+        
+        NSLog(@"print sorting array: %@", array);
+        
+        
         
         
 

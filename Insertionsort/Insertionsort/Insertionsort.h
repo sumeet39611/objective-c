@@ -9,6 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface Insertionsort : NSObject
--(void) sorting : (int [])a
-                :(int)n;
+//-(void) sorting : (int [])a
+ //               :(int)n;
+//-----------------------------------------
+
+-(void) sortingString : (NSArray *)array;
+
+
 @end
