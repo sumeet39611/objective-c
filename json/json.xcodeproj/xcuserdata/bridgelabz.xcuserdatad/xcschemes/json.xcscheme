@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A6E6B801D3DDCA3005BC5D4"
-               BuildableName = "CouponNumber"
-               BlueprintName = "CouponNumber"
-               ReferencedContainer = "container:CouponNumber.xcodeproj">
+               BlueprintIdentifier = "0A6E6BAF1D3E0F74005BC5D4"
+               BuildableName = "json"
+               BlueprintName = "json"
+               ReferencedContainer = "container:json.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A6E6B801D3DDCA3005BC5D4"
-            BuildableName = "CouponNumber"
-            BlueprintName = "CouponNumber"
-            ReferencedContainer = "container:CouponNumber.xcodeproj">
+            BlueprintIdentifier = "0A6E6BAF1D3E0F74005BC5D4"
+            BuildableName = "json"
+            BlueprintName = "json"
+            ReferencedContainer = "container:json.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A6E6B801D3DDCA3005BC5D4"
-            BuildableName = "CouponNumber"
-            BlueprintName = "CouponNumber"
-            ReferencedContainer = "container:CouponNumber.xcodeproj">
+            BlueprintIdentifier = "0A6E6BAF1D3E0F74005BC5D4"
+            BuildableName = "json"
+            BlueprintName = "json"
+            ReferencedContainer = "container:json.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A6E6B801D3DDCA3005BC5D4"
-            BuildableName = "CouponNumber"
-            BlueprintName = "CouponNumber"
-            ReferencedContainer = "container:CouponNumber.xcodeproj">
+            BlueprintIdentifier = "0A6E6BAF1D3E0F74005BC5D4"
+            BuildableName = "json"
+            BlueprintName = "json"
+            ReferencedContainer = "container:json.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
